@@ -1,0 +1,145 @@
+major,average lecture time (one day),average num of days a week,average lecture time (one week)
+,,,
+Bioengineering (BIOENGR),106.35,1.85,196.33
+Life Sciences (LIFESCI),74.58,2.0,149.17
+Education (EDUC),182.84,1.18,216.08
+Music History (MSC HST),130.0,1.44,187.78
+Engineering (ENGR),105.0,1.67,175.0
+Civic Engagement (CIVIC),140.0,1.5,210.0
+Conservation of Archaeological and Ethnographic Materials (CAEM),155.0,1.0,155.0
+International Development Studies (INTL DV),140.0,2.0,280.0
+Jewish Studies (JEWISH),84.0,2.2,184.8
+Indo-European Studies (I E STD),118.33,1.67,197.22
+Southeast Asian (SEASIAN),170.0,1.0,170.0
+Aerospace Studies (AERO ST),91.0,1.2,109.2
+Turkic Languages (TURKIC),130.0,1.67,216.67
+Mathematics (MATH),66.56,2.51,167.13
+"Earth, Planetary, and Space Sciences (EPS SCI)",79.4,1.8,142.92
+Disability Studies (DIS STD),116.0,1.4,162.4
+Public Policy (PUB PLC),122.31,1.54,188.17
+Scandinavian (SCAND),81.07,1.71,138.98
+Environmental Health Sciences (ENV HLT),115.31,1.63,187.38
+Iranian,79.5,2.3,182.85
+Computer Science (COM SCI),114.77,1.95,224.2
+Statistics (STATS),82.34,1.91,156.97
+Electrical Engineering (EL ENGR),107.35,1.78,191.55
+"Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)",96.43,2.14,206.63
+Civil and Environmental Engineering (C&EE),103.87,1.9,197.69
+Neuroscience (Graduate) (NEURO),92.86,1.71,159.18
+Political Science (POL SCI),113.04,1.65,186.18
+Italian,85.71,2.21,189.8
+Art,201.3,1.65,332.59
+Nursing,163.24,1.05,172.07
+University Studies (UNIV ST),98.33,1.33,131.11
+History (HIST),117.36,1.62,189.57
+Psychology (PSYCH),88.73,1.67,148.33
+Chinese (CHIN),91.76,1.82,167.34
+Vietnamese (VIETMSE),83.75,2.0,167.5
+Chemistry and Biochemistry (CHEM),76.72,2.25,172.62
+Physics and Biology in Medicine (PBMED),96.67,1.67,161.11
+Physiological Science (PHYSCI),105.0,1.95,204.75
+Korean (KOREA),92.33,1.87,172.36
+Middle Eastern Studies (M E STD),75.0,2.0,150.0
+Art History (ART HIS),132.29,1.38,181.9
+Neuroscience (NEUROSC),79.0,1.6,126.4
+Mechanical and Aerospace Engineering (MECH&AE),111.14,1.95,217.22
+Ethnomusicology (ETHNMUS),137.73,1.11,152.75
+Naval Science (NAV SCI),100.0,2.0,200.0
+Spanish (SPAN),116.62,1.74,202.37
+"Molecular, Cellular, and Integrative Physiology (MC&IP)",90.0,2.0,180.0
+Latin,98.33,2.0,196.67
+Epidemiology (EPIDEM),114.62,1.46,167.51
+Economics (ECON),83.73,1.45,121.47
+Honors Collegium (HNRS),115.5,1.3,150.15
+Biological Chemistry (BIOL CH),80.0,1.2,96.0
+Human Genetics (HUM GEN),98.33,2.0,196.67
+Oral Biology (ORL BIO),81.25,1.38,111.72
+South Asian (S ASIAN),87.5,2.0,175.0
+Thai,76.67,2.0,153.33
+Biomedical Research (BMD RES),117.14,1.29,150.61
+Psychiatry and Biobehavioral Sciences (PSYCTRY),103.85,1.31,135.8
+Theater,157.04,1.53,240.19
+Bioinformatics (Graduate) (BIOINFO),95.0,1.75,166.25
+Design / Media Arts (DESMA),153.42,1.79,274.54
+Armenian (ARMENIA),130.0,2.0,260.0
+Greek,98.0,2.2,215.6
+African American Studies (AF AMER),116.94,1.44,168.92
+Urban Planning (URBN PL),133.16,1.42,189.22
+International and Area Studies (I A STD),113.13,1.5,169.69
+Physiology (PHYSIOL),98.33,1.33,131.11
+Musicology (MUSCLG),170.0,1.14,194.29
+Chicana and Chicano Studies (CHICANO),133.97,1.62,216.72
+Indonesian (INDO),86.67,2.0,173.33
+Dance,107.0,1.95,208.65
+World Arts and Cultures (WL ARTS),119.79,1.83,219.62
+Archaeology (ARCHEOL),176.0,1.2,211.2
+Arabic,135.83,1.83,249.03
+Japanese (JAPAN),88.57,1.86,164.49
+Program in Computing (COMPTNG),60.0,2.83,170.0
+Classics (CLASSIC),87.5,2.0,175.0
+Swahili,71.67,3.0,215.0
+Atmospheric and Oceanic Sciences (A&O SCI),81.58,1.68,137.4
+Anthropology (ANTHRO),118.11,1.4,164.91
+"Molecular, Cell, and Developmental Biology (MCD BIO)",87.33,1.6,139.73
+Music Industry (MSC IND),135.71,1.57,213.27
+Environment (ENVIRON),100.67,1.47,147.64
+Applied Linguistics (APPLING),110.0,1.5,165.0
+Comparative Literature (COM LIT),95.38,1.38,132.07
+Semitic,92.5,1.5,138.75
+Filipino (FILIPNO),62.5,1.5,93.75
+Asian American Studies (ASIA AM),111.94,1.61,180.35
+French (FRNCH),84.76,2.38,201.81
+Arts and Architecture (ART&ARC),138.33,2.0,276.67
+Materials Science and Engineering (MAT SCI),121.18,1.82,220.97
+Medicine (MED),119.17,1.33,158.89
+Biomathematics (BIOMATH),96.67,1.78,171.85
+Portuguese (PORTGSE),120.63,1.75,211.09
+Gender Studies (GENDER),104.44,1.83,191.48
+Biostatistics (BIOSTAT),100.0,1.88,188.24
+Health Policy and Management (HLT POL),132.11,1.37,180.78
+English (ENGL),121.36,1.64,199.19
+Molecular and Medical Pharmacology (M PHARM),101.43,1.71,173.88
+Indigenous Languages of the Americas (IL AMER),109.0,2.2,239.8
+Social Welfare (SOC WLF),139.79,1.79,250.46
+Global Studies (GLBL ST),134.0,1.4,187.6
+German,95.0,2.0,190.0
+Near Eastern Languages (NR EAST),86.67,1.67,144.44
+Afrikaans (AFRKAAN),50.0,2.0,100.0
+Music (MUSC),132.44,1.27,167.97
+Ecology and Evolutionary Biology (EE BIOL),87.41,1.7,148.92
+Public Health (PUB HLT),125.0,1.25,156.25
+Management (MGMT),126.94,1.35,171.98
+Labor and Workplace Studies (LBR&WS),155.0,1.33,206.67
+American Sign Language (ASL),80.0,2.0,160.0
+American Indian Studies (AM IND),125.0,1.63,203.13
+Ancient Near East (AN N EA),98.75,1.58,156.35
+Hindi-Urdu (HIN-URD),75.0,2.0,150.0
+Community Health Sciences (COM HLT),151.58,1.11,167.53
+"Religion, Study of (RELIGN)",80.71,2.07,167.19
+English Composition (ENGCOMP),118.89,1.56,184.94
+Serbian/Croatian (SRB CRO),63.33,1.67,105.56
+Sociology (SOCIOL),116.49,1.34,156.15
+Law,114.96,1.52,174.49
+Clusters (CLUSTER),82.5,2.0,165.0
+Astronomy (ASTR),85.56,1.78,152.1
+Philosophy (PHILOS),115.86,1.8,208.54
+Military Science (MIL SCI),117.5,1.25,146.88
+Hebrew,62.5,3.5,218.75
+Geography (GEOG),111.35,1.54,171.3
+Linguistics (LING),104.72,1.64,171.63
+Communication (COMM),96.5,1.67,160.83
+Film and Television (FILM TV),170.38,1.19,202.32
+Physics,85.65,2.04,175.03
+Architecture and Urban Design (ARCH&UD),155.77,1.69,263.61
+Chemical Engineering (CH ENGR),91.86,1.57,144.35
+"Microbiology, Immunology, and Molecular Genetics (MIMG)",105.0,1.56,163.33
+Molecular Toxicology (MOL TOX),80.0,1.5,120.0
+Arts Education (ARTS ED),151.0,1.2,181.2
+English as A Second Language (ESL),110.0,1.75,192.5
+Slavic (SLAVC),76.25,2.0,152.5
+Latin American Studies (LATN AM),122.5,2.0,245.0
+Society and Genetics (SOC GEN),96.11,1.78,170.86
+Asian,114.44,1.89,216.17
+Information Studies (INF STD),185.0,1.04,192.71
+Polish (POLSH),78.33,1.33,104.44
+Russian (RUSSN),82.86,2.0,165.71

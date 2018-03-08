@@ -5,8 +5,7 @@ from pprint import pprint
 
 majors = {}
 
-
-data = json.load(open('Spring2018.json'))
+data = json.load(open('Winter2018.json'))
 
 def get_length(from_time, to_time):
     if (len(from_time)==1):
@@ -41,6 +40,9 @@ def get_lecture_length(time_range):
         if (i.isupper() and (i=='M' or i=='T' or i=='W' or i=='R' or i=='F')):
             days.append(i)
             time_and_day.remove(i)
+        if (i=='\n' or i.isdigit()):
+            break
+    for i in time_range:
         if (i.isspace()):
             time_and_day.remove(i)
     temp = ''.join(time_and_day)
@@ -54,7 +56,7 @@ def get_lecture_length(time_range):
         if (time_range_list[1][i]=='m'):
             break
     time_range_list[1]=time_range_list[1][0:i+1]
-    return get_length(time_range_list[0].split(':'), time_range_list[1].split(':'))
+    return get_length(time_range_list[0].split(':'), time_range_list[1].split(':')), len(days)
 
 def get_lectures_disc(lec):
     lec_and_disc=lec.split("|")
@@ -64,11 +66,12 @@ def get_lectures_disc(lec):
     return lec_and_disc
 
 i=0
-total_lec_length=0
-no_of_lectures=0
+total_lec_length=0.0
+total_number_of_days=0
+no_of_lectures=0.0
 while (i!=len(data)):
     major_name = str(data[i]['fields']['subject'])
-    majors[major_name]=0
+    majors[major_name]=[]
     curr_major=major_name
     while (major_name==curr_major and i!=len(data)):
         curr_major = str(data[i]['fields']['subject'])
@@ -78,8 +81,9 @@ while (i!=len(data)):
             continue
         if (day_times[0]=='M' or day_times[0]=='T' or day_times[0]=='W' or day_times[0]=='R' or day_times[0]=='F'):
             times = get_lectures_disc(day_times)
-            time_diff=get_lecture_length(times[0])
+            time_diff, no_of_days=get_lecture_length(times[0])
             total_lec_length+=time_diff
+            total_number_of_days+=no_of_days
             no_of_lectures+=1
             i+=1
         else:
@@ -87,16 +91,20 @@ while (i!=len(data)):
             continue
     if (total_lec_length==0):
         del majors[major_name]
-        total_lec_length=0
-        no_of_lectures=0
+        total_lec_length=0.0
+        total_number_of_days=0
+        no_of_lectures=0.0
         continue
-    majors[major_name]=total_lec_length/no_of_lectures
-    total_lec_length=0
-    no_of_lectures=0
+    majors[major_name].append(total_lec_length/no_of_lectures)
+    majors[major_name].append(total_number_of_days/no_of_lectures)
+    total_lec_length=0.0
+    total_number_of_days=0
+    no_of_lectures=0.0
 
-with open('lectures.csv', 'wb') as csvfile:
+with open('Winter2018-lectures.csv', 'wb') as csvfile:
     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
-    lec_writer.writerow(['',''])
+    lec_writer.writerow(['major','average lecture time (one day)','average num of days a week', 'average lecture time (one week)'])
+    lec_writer.writerow(['','','', ''])
     for n,l in majors.items():
-        lec_writer.writerow([n,l])
+        lec_writer.writerow([n,round(l[0],2),round(l[1],2), round(l[0]*l[1],2)])
 print majors
