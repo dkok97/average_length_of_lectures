@@ -5,7 +5,7 @@ from pprint import pprint
 
 majors = {}
 
-data = json.load(open('Winter2018.json'))
+data = json.load(open('Fall2017.json'))
 
 def get_length(from_time, to_time):
     if (len(from_time)==1):
@@ -74,12 +74,10 @@ while (i!=len(data)):
     majors[major_name]=[]
     curr_major=major_name
     while (major_name==curr_major and i!=len(data)):
-        curr_major = str(data[i]['fields']['subject'])
         day_times=data[i]['fields']['day_times']
         if (day_times==""):
             i+=1
-            continue
-        if (day_times[0]=='M' or day_times[0]=='T' or day_times[0]=='W' or day_times[0]=='R' or day_times[0]=='F'):
+        elif (day_times[0]=='M' or day_times[0]=='T' or day_times[0]=='W' or day_times[0]=='R' or day_times[0]=='F'):
             times = get_lectures_disc(day_times)
             time_diff, no_of_days=get_lecture_length(times[0])
             total_lec_length+=time_diff
@@ -88,10 +86,10 @@ while (i!=len(data)):
             i+=1
         else:
             i+=1
-            continue
+        if i < len(data):
+            curr_major = str(data[i]['fields']['subject'])
     if (total_lec_length==0):
         del majors[major_name]
-        total_lec_length=0.0
         total_number_of_days=0
         no_of_lectures=0.0
         continue
@@ -101,7 +99,7 @@ while (i!=len(data)):
     total_number_of_days=0
     no_of_lectures=0.0
 
-with open('Winter2018-lectures.csv', 'wb') as csvfile:
+with open('Fall2017-lectures.csv', 'wb') as csvfile:
     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
     lec_writer.writerow(['major','average lecture time (one day)','average num of days a week', 'average lecture time (one week)'])
     lec_writer.writerow(['','','', ''])

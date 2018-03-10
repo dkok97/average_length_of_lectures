@@ -1,145 +1,158 @@
 major,average lecture time (one day),average num of days a week,average lecture time (one week)
 ,,,
 Bioengineering (BIOENGR),106.35,1.85,196.33
-Life Sciences (LIFESCI),74.58,2.0,149.17
-Education (EDUC),182.84,1.18,216.08
-Music History (MSC HST),130.0,1.44,187.78
+Islamic Studies (ISLM ST),75.0,2.0,150.0
+Life Sciences (LIFESCI),72.5,2.08,151.04
+Education (EDUC),186.36,1.16,216.01
+Music History (MSC HST),123.33,1.56,191.85
 Engineering (ENGR),105.0,1.67,175.0
-Civic Engagement (CIVIC),140.0,1.5,210.0
-Conservation of Archaeological and Ethnographic Materials (CAEM),155.0,1.0,155.0
-International Development Studies (INTL DV),140.0,2.0,280.0
+Civic Engagement (CIVIC),170.0,1.0,170.0
+Conservation of Archaeological and Ethnographic Materials (CAEM),170.0,1.0,170.0
+International Development Studies (INTL DV),170.0,1.0,170.0
+Latin American Studies (LATN AM),170.0,1.0,170.0
 Jewish Studies (JEWISH),84.0,2.2,184.8
-Indo-European Studies (I E STD),118.33,1.67,197.22
+Indo-European Studies (I E STD),86.67,2.0,173.33
 Southeast Asian (SEASIAN),170.0,1.0,170.0
-Aerospace Studies (AERO ST),91.0,1.2,109.2
-Turkic Languages (TURKIC),130.0,1.67,216.67
-Mathematics (MATH),66.56,2.51,167.13
-"Earth, Planetary, and Space Sciences (EPS SCI)",79.4,1.8,142.92
-Disability Studies (DIS STD),116.0,1.4,162.4
-Public Policy (PUB PLC),122.31,1.54,188.17
-Scandinavian (SCAND),81.07,1.71,138.98
-Environmental Health Sciences (ENV HLT),115.31,1.63,187.38
-Iranian,79.5,2.3,182.85
-Computer Science (COM SCI),114.77,1.95,224.2
-Statistics (STATS),82.34,1.91,156.97
-Electrical Engineering (EL ENGR),107.35,1.78,191.55
-"Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)",96.43,2.14,206.63
-Civil and Environmental Engineering (C&EE),103.87,1.9,197.69
-Neuroscience (Graduate) (NEURO),92.86,1.71,159.18
-Political Science (POL SCI),113.04,1.65,186.18
-Italian,85.71,2.21,189.8
-Art,201.3,1.65,332.59
-Nursing,163.24,1.05,172.07
-University Studies (UNIV ST),98.33,1.33,131.11
-History (HIST),117.36,1.62,189.57
-Psychology (PSYCH),88.73,1.67,148.33
-Chinese (CHIN),91.76,1.82,167.34
-Vietnamese (VIETMSE),83.75,2.0,167.5
-Chemistry and Biochemistry (CHEM),76.72,2.25,172.62
-Physics and Biology in Medicine (PBMED),96.67,1.67,161.11
-Physiological Science (PHYSCI),105.0,1.95,204.75
-Korean (KOREA),92.33,1.87,172.36
+Aerospace Studies (AERO ST),110.0,1.0,110.0
+Hungarian (HNGAR),110.0,2.0,220.0
+Polish (POLSH),78.33,1.67,130.56
+Turkic Languages (TURKIC),130.0,2.33,303.33
+Neurobiology (NEURBIO),50.0,3.0,150.0
+Mathematics (MATH),66.37,2.52,167.03
+"Earth, Planetary, and Space Sciences (EPS SCI)",77.0,1.84,141.68
+Disability Studies (DIS STD),132.5,1.0,132.5
+Public Policy (PUB PLC),125.0,1.54,192.31
+Scandinavian (SCAND),82.5,1.79,147.32
+Environmental Health Sciences (ENV HLT),117.5,1.63,190.94
+Iranian,83.0,2.4,199.2
+Computer Science (COM SCI),113.37,1.93,218.83
+Statistics (STATS),81.36,1.94,157.8
+Electrical Engineering (EL ENGR),106.18,1.76,187.37
+Sociology (SOCIOL),117.23,1.34,157.14
+"Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)",105.0,2.0,210.0
+Civil and Environmental Engineering (C&EE),105.0,1.87,196.45
+Neuroscience (Graduate) (NEURO),90.0,1.67,150.0
+Political Science (POL SCI),113.04,1.63,183.97
+Italian,86.54,2.23,193.05
+Art,203.91,1.7,345.77
+Nursing,161.84,1.05,170.36
+University Studies (UNIV ST),110.0,1.0,110.0
+History (HIST),117.02,1.62,189.03
+Psychology (PSYCH),89.04,1.68,149.28
+Chinese (CHIN),86.18,1.88,162.21
+Vietnamese (VIETMSE),75.0,2.0,150.0
+Chemistry and Biochemistry (CHEM),75.78,2.27,171.69
+Physics and Biology in Medicine (PBMED),95.0,1.63,154.38
+Physiological Science (PHYSCI),106.5,1.95,207.67
+Korean (KOREA),94.0,1.8,169.2
 Middle Eastern Studies (M E STD),75.0,2.0,150.0
-Art History (ART HIS),132.29,1.38,181.9
-Neuroscience (NEUROSC),79.0,1.6,126.4
-Mechanical and Aerospace Engineering (MECH&AE),111.14,1.95,217.22
-Ethnomusicology (ETHNMUS),137.73,1.11,152.75
-Naval Science (NAV SCI),100.0,2.0,200.0
+Philosophy (PHILOS),115.86,1.8,208.54
+Art History (ART HIS),128.33,1.42,181.81
+Neuroscience (NEUROSC),84.17,1.67,140.28
+Mechanical and Aerospace Engineering (MECH&AE),109.78,1.93,212.24
+Ethnomusicology (ETHNMUS),138.36,1.09,150.94
+Naval Science (NAV SCI),120.0,1.67,200.0
 Spanish (SPAN),116.62,1.74,202.37
-"Molecular, Cellular, and Integrative Physiology (MC&IP)",90.0,2.0,180.0
-Latin,98.33,2.0,196.67
-Epidemiology (EPIDEM),114.62,1.46,167.51
-Economics (ECON),83.73,1.45,121.47
-Honors Collegium (HNRS),115.5,1.3,150.15
-Biological Chemistry (BIOL CH),80.0,1.2,96.0
-Human Genetics (HUM GEN),98.33,2.0,196.67
-Oral Biology (ORL BIO),81.25,1.38,111.72
-South Asian (S ASIAN),87.5,2.0,175.0
-Thai,76.67,2.0,153.33
-Biomedical Research (BMD RES),117.14,1.29,150.61
-Psychiatry and Biobehavioral Sciences (PSYCTRY),103.85,1.31,135.8
-Theater,157.04,1.53,240.19
-Bioinformatics (Graduate) (BIOINFO),95.0,1.75,166.25
-Design / Media Arts (DESMA),153.42,1.79,274.54
-Armenian (ARMENIA),130.0,2.0,260.0
-Greek,98.0,2.2,215.6
-African American Studies (AF AMER),116.94,1.44,168.92
+"Molecular, Cellular, and Integrative Physiology (MC&IP)",110.0,2.0,220.0
+Latin,78.33,2.33,182.78
+Epidemiology (EPIDEM),120.0,1.33,160.0
+Economics (ECON),81.64,1.46,118.97
+Honors Collegium (HNRS),118.95,1.26,150.25
+Biological Chemistry (BIOL CH),80.0,1.0,80.0
+Human Genetics (HUM GEN),90.0,2.0,180.0
+Oral Biology (ORL BIO),81.43,1.29,104.69
+South Asian (S ASIAN),75.0,2.0,150.0
+Thai,75.0,2.0,150.0
+Biomedical Research (BMD RES),112.86,1.43,161.22
+Psychiatry and Biobehavioral Sciences (PSYCTRY),103.33,1.25,129.17
+Theater,156.6,1.51,237.21
+Bioinformatics (Graduate) (BIOINFO),98.0,1.6,156.8
+Design / Media Arts (DESMA),158.42,1.74,275.15
+Armenian (ARMENIA),117.14,2.0,234.29
+Greek,86.0,2.4,206.4
+African American Studies (AF AMER),111.67,1.5,167.5
 Urban Planning (URBN PL),133.16,1.42,189.22
 International and Area Studies (I A STD),113.13,1.5,169.69
-Physiology (PHYSIOL),98.33,1.33,131.11
-Musicology (MUSCLG),170.0,1.14,194.29
-Chicana and Chicano Studies (CHICANO),133.97,1.62,216.72
-Indonesian (INDO),86.67,2.0,173.33
-Dance,107.0,1.95,208.65
+Physiology (PHYSIOL),90.0,1.0,90.0
+Musicology (MUSCLG),178.57,1.0,178.57
+Chicana and Chicano Studies (CHICANO),135.0,1.62,218.38
+Indonesian (INDO),75.0,2.0,150.0
+Dance,105.5,1.98,208.36
 World Arts and Cultures (WL ARTS),119.79,1.83,219.62
-Archaeology (ARCHEOL),176.0,1.2,211.2
-Arabic,135.83,1.83,249.03
+Archaeology (ARCHEOL),185.0,1.0,185.0
+Arabic,114.17,1.83,209.31
 Japanese (JAPAN),88.57,1.86,164.49
-Program in Computing (COMPTNG),60.0,2.83,170.0
-Classics (CLASSIC),87.5,2.0,175.0
-Swahili,71.67,3.0,215.0
-Atmospheric and Oceanic Sciences (A&O SCI),81.58,1.68,137.4
-Anthropology (ANTHRO),118.11,1.4,164.91
-"Molecular, Cell, and Developmental Biology (MCD BIO)",87.33,1.6,139.73
-Music Industry (MSC IND),135.71,1.57,213.27
-Environment (ENVIRON),100.67,1.47,147.64
+Program in Computing (COMPTNG),50.0,3.0,150.0
+Classics (CLASSIC),84.38,2.13,179.3
+Swahili,70.0,3.5,245.0
+Atmospheric and Oceanic Sciences (A&O SCI),76.67,1.72,132.04
+Anthropology (ANTHRO),118.27,1.38,163.76
+"Molecular, Cell, and Developmental Biology (MCD BIO)",87.33,1.67,145.56
+Music Industry (MSC IND),144.29,1.43,206.12
+Pathology and Laboratory Medicine (PATH),80.0,2.0,160.0
+Environment (ENVIRON),99.06,1.5,148.59
 Applied Linguistics (APPLING),110.0,1.5,165.0
-Comparative Literature (COM LIT),95.38,1.38,132.07
-Semitic,92.5,1.5,138.75
-Filipino (FILIPNO),62.5,1.5,93.75
+Comparative Literature (COM LIT),104.62,1.38,144.85
+Semitic,122.5,1.5,183.75
+Filipino (FILIPNO),75.0,2.0,150.0
 Asian American Studies (ASIA AM),111.94,1.61,180.35
-French (FRNCH),84.76,2.38,201.81
-Arts and Architecture (ART&ARC),138.33,2.0,276.67
-Materials Science and Engineering (MAT SCI),121.18,1.82,220.97
-Medicine (MED),119.17,1.33,158.89
-Biomathematics (BIOMATH),96.67,1.78,171.85
-Portuguese (PORTGSE),120.63,1.75,211.09
+French (FRNCH),83.57,2.43,202.96
+Arts and Architecture (ART&ARC),170.0,1.67,283.33
+Romanian (ROMANIA),145.0,2.0,290.0
+Materials Science and Engineering (MAT SCI),124.71,1.71,212.73
+Medicine (MED),110.0,1.4,154.0
+Biomathematics (BIOMATH),93.33,1.67,155.56
+Portuguese (PORTGSE),116.25,1.75,203.44
 Gender Studies (GENDER),104.44,1.83,191.48
-Biostatistics (BIOSTAT),100.0,1.88,188.24
+Biostatistics (BIOSTAT),101.76,1.94,197.54
 Health Policy and Management (HLT POL),132.11,1.37,180.78
 English (ENGL),121.36,1.64,199.19
-Molecular and Medical Pharmacology (M PHARM),101.43,1.71,173.88
-Indigenous Languages of the Americas (IL AMER),109.0,2.2,239.8
-Social Welfare (SOC WLF),139.79,1.79,250.46
-Global Studies (GLBL ST),134.0,1.4,187.6
-German,95.0,2.0,190.0
-Near Eastern Languages (NR EAST),86.67,1.67,144.44
-Afrikaans (AFRKAAN),50.0,2.0,100.0
-Music (MUSC),132.44,1.27,167.97
-Ecology and Evolutionary Biology (EE BIOL),87.41,1.7,148.92
+Molecular and Medical Pharmacology (M PHARM),100.0,1.83,183.33
+Indigenous Languages of the Americas (IL AMER),117.5,2.25,264.38
+Gerontology (GRNTLGY),110.0,2.0,220.0
+Social Welfare (SOC WLF),141.09,1.78,251.5
+Global Studies (GLBL ST),139.0,1.2,166.8
+German,95.0,2.08,197.31
+Near Eastern Languages (NR EAST),75.0,2.0,150.0
+Music (MUSC),130.98,1.29,169.31
+Ecology and Evolutionary Biology (EE BIOL),88.33,1.74,153.77
 Public Health (PUB HLT),125.0,1.25,156.25
-Management (MGMT),126.94,1.35,171.98
+Management (MGMT),128.79,1.35,174.49
 Labor and Workplace Studies (LBR&WS),155.0,1.33,206.67
-American Sign Language (ASL),80.0,2.0,160.0
-American Indian Studies (AM IND),125.0,1.63,203.13
-Ancient Near East (AN N EA),98.75,1.58,156.35
+American Sign Language (ASL),80.0,3.5,280.0
+Science Education (SCI EDU),80.0,1.0,80.0
+Dutch,50.0,3.0,150.0
+American Indian Studies (AM IND),121.88,1.63,198.05
+Ancient Near East (AN N EA),96.92,1.62,156.57
+Yiddish (YIDDSH),110.0,2.0,220.0
 Hindi-Urdu (HIN-URD),75.0,2.0,150.0
 Community Health Sciences (COM HLT),151.58,1.11,167.53
-"Religion, Study of (RELIGN)",80.71,2.07,167.19
+"Religion, Study of (RELIGN)",75.71,2.07,156.84
 English Composition (ENGCOMP),118.89,1.56,184.94
-Serbian/Croatian (SRB CRO),63.33,1.67,105.56
-Sociology (SOCIOL),116.49,1.34,156.15
-Law,114.96,1.52,174.49
-Clusters (CLUSTER),82.5,2.0,165.0
-Astronomy (ASTR),85.56,1.78,152.1
-Philosophy (PHILOS),115.86,1.8,208.54
-Military Science (MIL SCI),117.5,1.25,146.88
-Hebrew,62.5,3.5,218.75
-Geography (GEOG),111.35,1.54,171.3
+Serbian/Croatian (SRB CRO),71.67,1.33,95.56
+African Studies (AFRC ST),170.0,1.0,170.0
+Molecular Biology (MOL BIO),110.0,1.0,110.0
+Law,114.64,1.53,175.04
+Clusters (CLUSTER),73.0,2.1,153.3
+Astronomy (ASTR),78.89,1.89,149.01
+International Migration Studies (I M STD),170.0,1.0,170.0
+Military Science (MIL SCI),117.5,1.0,117.5
+Hebrew,58.33,4.0,233.33
+Geography (GEOG),111.35,1.5,167.02
 Linguistics (LING),104.72,1.64,171.63
-Communication (COMM),96.5,1.67,160.83
-Film and Television (FILM TV),170.38,1.19,202.32
-Physics,85.65,2.04,175.03
-Architecture and Urban Design (ARCH&UD),155.77,1.69,263.61
-Chemical Engineering (CH ENGR),91.86,1.57,144.35
-"Microbiology, Immunology, and Molecular Genetics (MIMG)",105.0,1.56,163.33
-Molecular Toxicology (MOL TOX),80.0,1.5,120.0
-Arts Education (ARTS ED),151.0,1.2,181.2
-English as A Second Language (ESL),110.0,1.75,192.5
-Slavic (SLAVC),76.25,2.0,152.5
-Latin American Studies (LATN AM),122.5,2.0,245.0
-Society and Genetics (SOC GEN),96.11,1.78,170.86
-Asian,114.44,1.89,216.17
-Information Studies (INF STD),185.0,1.04,192.71
-Polish (POLSH),78.33,1.33,104.44
-Russian (RUSSN),82.86,2.0,165.71
+Communication (COMM),98.5,1.63,160.88
+Physics,86.3,2.07,178.24
+Architecture and Urban Design (ARCH&UD),161.79,1.71,277.35
+Chemical Engineering (CH ENGR),91.86,1.51,139.1
+"Microbiology, Immunology, and Molecular Genetics (MIMG)",98.33,1.78,174.81
+Molecular Toxicology (MOL TOX),50.0,1.0,50.0
+Arts Education (ARTS ED),170.0,1.0,170.0
+English as A Second Language (ESL),110.0,2.0,220.0
+Slavic (SLAVC),85.0,1.75,148.75
+Film and Television (FILM TV),170.38,1.16,198.06
+Society and Genetics (SOC GEN),94.0,1.8,169.2
+Asian,117.22,1.56,182.35
+Information Studies (INF STD),182.5,1.08,197.71
+Central and East European Studies (C&EE ST),75.0,2.0,150.0
+Digital Humanities (DGT HUM),75.0,2.0,150.0
+Russian (RUSSN),83.46,2.0,166.92
