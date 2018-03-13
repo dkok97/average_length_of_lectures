@@ -5,7 +5,7 @@
 body {
   font: 10px sans-serif;
   position: relative;
-  width: 960px;
+  padding: 100px;
 }
 
 .axis path,
@@ -31,9 +31,9 @@ label {
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
-var width = 960,
-    height = 500,
-    barHeight = height / 2 - 40;
+var width = 1150,
+    height = 1000,
+    barHeight = height / 2 - 80;
 
 var formatNumber = d3.format("s");
 
@@ -108,26 +108,20 @@ d3.csv("data.csv", function(error, data) {
     .call(xAxis);
 
   // Labels
-  var labelRadius = barHeight * 1.025;
-
   var labels = svg.append("g")
       .classed("labels", true);
-
-  labels.append("def")
-        .append("path")
-        .attr("id", "label-path")
-        .attr("d", "m0 " + -labelRadius + " a" + labelRadius + " " + labelRadius + " 0 1,1 -0.01 0");
 
   labels.selectAll("text")
         .data(data)
       .enter().append("text")
-        .style("text-anchor", "middle")
-        .style("font-weight","bold")
-        .style("fill", function(d, i) {return "#3e3e3e";})
-        .append("textPath")
-        .attr("class","textpath")
-        .attr("xlink:href", "#label-path")
-        .attr("startOffset", function(d,i) {return i * 100 / numBars + 50 / numBars + '%';})
+        .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+        .attr("dy", ".35em")
+        .attr("transform", function(d) {
+          return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+              + "translate(" + (d.innerRadius + (barHeight*1.025)) + ")"
+              + (d.angle > Math.PI ? "rotate(180)" : "");
+              })
+        .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
         .text(function(d) {return d.name.toUpperCase(); });
 
   d3.select("input").on("change", change);

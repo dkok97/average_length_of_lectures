@@ -99,10 +99,11 @@ while (i!=len(data)):
     total_number_of_days=0
     no_of_lectures=0.0
 
-with open('Fall2017-lectures.csv', 'wb') as csvfile:
+with open('data.csv', 'wb') as csvfile:
     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
-    lec_writer.writerow(['major','average lecture time (one day)','average num of days a week', 'average lecture time (one week)'])
-    lec_writer.writerow(['','','', ''])
+    #lec_writer.writerow(['major','average lecture time (one day)','average num of days a week', 'average lecture time (one week)'])
+    #lec_writer.writerow(['','','', ''])
+    lec_writer.writerow(['name','value'])
     for n,l in majors.items():
-        lec_writer.writerow([n,round(l[0],2),round(l[1],2), round(l[0]*l[1],2)])
+        lec_writer.writerow([n,int(round(l[0],2)/30)])
 print majors
