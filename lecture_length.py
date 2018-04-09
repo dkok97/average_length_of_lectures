@@ -3,6 +3,58 @@ import time
 import csv
 from pprint import pprint
 
+base = {
+    'major': {
+        'school': 'Engineering',
+        'NorthOrSouth': 'South',
+        'Fall': {
+            'upper': {
+                'avg_lecture_size': 0,
+                'avg_lecture_length_day': 0,
+                'avg_num_lectures_week': 0,
+                'avg_lecture_length_week': 0,
+            },
+            'lower': {
+                'avg_lecture_size': 0,
+                'avg_lecture_length_day': 0,
+                'avg_num_lectures_week': 0,
+                'avg_lecture_length_week': 0
+            },
+        },
+        'Winter': {
+            'upper': {
+                'avg_lecture_size': 0,
+                'avg_lecture_length_day': 0,
+                'avg_num_lectures_week': 0,
+                'avg_lecture_length_week': 0
+            },
+            'lower': {
+                'avg_lecture_size': 0,
+                'avg_lecture_length_day': 0,
+                'avg_num_lectures_week': 0,
+                'avg_lecture_length_week': 0
+            },
+        },
+        'Spring': {
+            'upper': {
+                'avg_lecture_size': 0,
+                'avg_lecture_length_day': 0,
+                'avg_num_lectures_week': 0,
+                'avg_lecture_length_week': 0
+            },
+            'lower': {
+                'avg_lecture_size': 0,
+                'avg_lecture_length_day': 0,
+                'avg_num_lectures_week': 0,
+                'avg_lecture_length_week': 0
+            }
+        }
+    }
+}
+
+output = {}
+
+
 majors = {}
 
 data = json.load(open('/Users/dinkar/Desktop/the_stack/average_length_of_lectures/Spring2018.json'))
@@ -124,9 +176,23 @@ while (i!=len(data)):
     no_of_lectures_upper=0.0
     no_of_lectures_lower=0.0
 
+<<<<<<< HEAD
 with open('Spring2018-data.csv', 'wb') as csvfile:
     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
     lec_writer.writerow(['major','average lecture time (one day) - lowerdiv','average num of days a week - lowerdiv', 'average lecture time (one week) - lowerdiv', 'average lecture time (one day) - upperdiv','average num of days a week - upperdiv', 'average lecture time (one week) - upperdiv'])
     lec_writer.writerow(['','','','','','',''])
     for n,l in majors.items():
         lec_writer.writerow([n,round(l[0],2), round(l[1],2), round(l[0]*l[1],2), round(l[2],2), round(l[3],2), round(l[2]*l[3],2)])
+=======
+# with open('data.csv', 'wb') as csvfile:
+#     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
+#     #lec_writer.writerow(['major','average lecture time (one day)','average num of days a week', 'average lecture time (one week)'])
+#     #lec_writer.writerow(['','','', ''])
+#     lec_writer.writerow(['name','value'])
+#     for n,l in majors.items():
+#         lec_writer.writerow([n,int(round(l[0],2)/30)])
+with open('data.json', 'w') as f:
+    createJson()
+    json.dump(output, f)
+print len(output)
+>>>>>>> b513cf7a34445d18d686c29d7db37fed38feb11b
