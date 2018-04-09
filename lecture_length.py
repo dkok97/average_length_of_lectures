@@ -5,7 +5,7 @@ from pprint import pprint
 
 majors = {}
 
-data = json.load(open('Fall2017.json'))
+data = json.load(open('/Users/dinkar/Desktop/the_stack/average_length_of_lectures/Spring2018.json'))
 
 def get_length(from_time, to_time):
     if (len(from_time)==1):
@@ -65,10 +65,25 @@ def get_lectures_disc(lec):
         lec_and_disc.remove('*')
     return lec_and_disc
 
+def getCourseNumber(course):
+	end = course.find("-") - 1
+	#edge case HIN-URD
+	if course[end] != ' ':
+		end = course.find("-", end + 5) - 1
+	start = course.rfind(" ", 0, end - 1)
+	val = course[start+1:end]
+	courseNum = ''.join(list(filter(lambda x: x.isdigit(), val)))
+	if(len(courseNum) == 0):
+		return -1
+	return int(courseNum)
+
 i=0
-total_lec_length=0.0
-total_number_of_days=0
-no_of_lectures=0.0
+total_lec_length_upper=0.0
+total_lec_length_lower=0.0
+total_number_of_days_upper=0
+total_number_of_days_lower=0
+no_of_lectures_upper=0.0
+no_of_lectures_lower=0.0
 while (i!=len(data)):
     major_name = str(data[i]['fields']['subject'])
     majors[major_name]=[]
@@ -78,32 +93,40 @@ while (i!=len(data)):
         if (day_times==""):
             i+=1
         elif (day_times[0]=='M' or day_times[0]=='T' or day_times[0]=='W' or day_times[0]=='R' or day_times[0]=='F'):
+            course_num = getCourseNumber(data[i]["pk"].encode('utf-8'))
             times = get_lectures_disc(day_times)
             time_diff, no_of_days=get_lecture_length(times[0])
-            total_lec_length+=time_diff
-            total_number_of_days+=no_of_days
-            no_of_lectures+=1
+            if (course_num >= 1 and course_num <= 99):
+                total_lec_length_lower+=time_diff
+                total_number_of_days_lower+=no_of_days
+                no_of_lectures_lower+=1
+            elif (course_num >= 100 and course_num <= 199):
+                total_lec_length_upper+=time_diff
+                total_number_of_days_upper+=no_of_days
+                no_of_lectures_upper+=1
             i+=1
         else:
             i+=1
         if i < len(data):
             curr_major = str(data[i]['fields']['subject'])
-    if (total_lec_length==0):
-        del majors[major_name]
-        total_number_of_days=0
-        no_of_lectures=0.0
-        continue
-    majors[major_name].append(total_lec_length/no_of_lectures)
-    majors[major_name].append(total_number_of_days/no_of_lectures)
-    total_lec_length=0.0
-    total_number_of_days=0
-    no_of_lectures=0.0
+    for j in range(0,4):
+        majors[major_name].append(0)
+    if (no_of_lectures_lower!=0):
+        majors[major_name][0]=(total_lec_length_lower/no_of_lectures_lower)
+        majors[major_name][1]=(total_number_of_days_lower/no_of_lectures_lower)
+    if (no_of_lectures_upper!=0):
+        majors[major_name][2]=(total_lec_length_upper/no_of_lectures_upper)
+        majors[major_name][3]=(total_number_of_days_upper/no_of_lectures_upper)
+    total_lec_length_upper=0.0
+    total_lec_length_lower=0.0
+    total_number_of_days_upper=0
+    total_number_of_days_lower=0
+    no_of_lectures_upper=0.0
+    no_of_lectures_lower=0.0
 
-with open('data.csv', 'wb') as csvfile:
+with open('Spring2018-data.csv', 'wb') as csvfile:
     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
-    #lec_writer.writerow(['major','average lecture time (one day)','average num of days a week', 'average lecture time (one week)'])
-    #lec_writer.writerow(['','','', ''])
-    lec_writer.writerow(['name','value'])
+    lec_writer.writerow(['major','average lecture time (one day) - lowerdiv','average num of days a week - lowerdiv', 'average lecture time (one week) - lowerdiv', 'average lecture time (one day) - upperdiv','average num of days a week - upperdiv', 'average lecture time (one week) - upperdiv'])
+    lec_writer.writerow(['','','','','','',''])
     for n,l in majors.items():
-        lec_writer.writerow([n,int(round(l[0],2)/30)])
-print majors
+        lec_writer.writerow([n,round(l[0],2), round(l[1],2), round(l[0]*l[1],2), round(l[2],2), round(l[3],2), round(l[2]*l[3],2)])
