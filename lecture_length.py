@@ -57,7 +57,7 @@ output = {}
 
 majors = {}
 
-data = json.load(open('/Users/dinkar/Desktop/the_stack/average_length_of_lectures/Spring2018.json'))
+data = json.load(open('Spring2018.json'))
 
 def get_length(from_time, to_time):
     if (len(from_time)==1):
@@ -129,6 +129,10 @@ def getCourseNumber(course):
 		return -1
 	return int(courseNum)
 
+def createJson():
+    for n,l in majors.items():
+        output[n] = base["major"]
+
 i=0
 total_lec_length_upper=0.0
 total_lec_length_lower=0.0
@@ -176,14 +180,13 @@ while (i!=len(data)):
     no_of_lectures_upper=0.0
     no_of_lectures_lower=0.0
 
-<<<<<<< HEAD
 with open('Spring2018-data.csv', 'wb') as csvfile:
     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
     lec_writer.writerow(['major','average lecture time (one day) - lowerdiv','average num of days a week - lowerdiv', 'average lecture time (one week) - lowerdiv', 'average lecture time (one day) - upperdiv','average num of days a week - upperdiv', 'average lecture time (one week) - upperdiv'])
     lec_writer.writerow(['','','','','','',''])
     for n,l in majors.items():
         lec_writer.writerow([n,round(l[0],2), round(l[1],2), round(l[0]*l[1],2), round(l[2],2), round(l[3],2), round(l[2]*l[3],2)])
-=======
+
 # with open('data.csv', 'wb') as csvfile:
 #     lec_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
 #     #lec_writer.writerow(['major','average lecture time (one day)','average num of days a week', 'average lecture time (one week)'])
@@ -195,4 +198,3 @@ with open('data.json', 'w') as f:
     createJson()
     json.dump(output, f)
 print len(output)
->>>>>>> b513cf7a34445d18d686c29d7db37fed38feb11b

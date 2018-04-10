@@ -79,7 +79,7 @@ d3.csv("data-sorted.csv", function(error, data) {
   // Labels
   var labels = svg.append("g")
       .classed("labels", true);
-  //
+
   // labels.append("def")
   //     .append("path")
   //     .attr("id", "label-path")
@@ -90,16 +90,15 @@ d3.csv("data-sorted.csv", function(error, data) {
         .data(data)
       .enter().append("text")
         .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+        .each(function(d, i) { d.rot_angle = (d.angle * 180 / Math.PI - 90); })
         .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
         .style("font-weight","bold")
         .style("fill", function(d, i) {return "#3e3e3e";})
-        // .append("textPath")
-        .attr("class","textpath")
-        .attr("xlink:href", "#label-path")
-        .attr("startOffset", function(d,i) {return i * 100 / numBars + 50 / numBars + '%';})
+        .attr("class","text_lab")
         .attr("dy", ".35em")
+        .attr("rot_angle", function(d,i) {return d.angle * 180 / Math.PI - 90;})
         .attr("transform", function(d) {
-          return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+          return "rotate(" + (d.rot_angle) + ")"
               + "translate(" + (d.innerRadius + (barHeight*1.025)) + ")"
               + (d.angle > Math.PI ? "rotate(180)" : "");
               })
@@ -110,11 +109,11 @@ d3.csv("data-sorted.csv", function(error, data) {
   function change() {
 
     if (this.checked) {
-     labels.selectAll(".textpath").sort(function(a,b) { return b.value - a.value; });
-     segments.sort(function(a,b) { return b.value - a.value; });
+      labels.selectAll(".text_lab").sort(function(a,b) { return b.value - a.value; });
+      segments.sort(function(a,b) { return b.value - a.value; });
 
     }else {
-      labels.selectAll(".textpath").sort(function(a,b) { return d3.ascending(a.name, b.name) });
+      labels.selectAll(".text_lab").sort(function(a,b) { return d3.ascending(a.name, b.name) });
       segments.sort(function(a,b) { return d3.ascending(a.name, b.name); });
     };
 
@@ -125,9 +124,29 @@ d3.csv("data-sorted.csv", function(error, data) {
               return function(t) { d.endAngle = u(t); d.startAngle = i(t); return arc(d,index); };
             });
 
-   labels.selectAll(".textpath").transition().duration(2000).delay(100)
-      .attr("startOffset", function(d,i) {return i * 100 / numBars + 50 / numBars + '%'; })
+    labels.selectAll("text").transition().duration(2000).delay(100)
+            .each( function(d, i) { d.rot_angle = (i*(360/numBars) -((180/2+(90 - 360/numBars))/2)); })
+            .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+            .attr("transform", function(d) {
+              return "rotate(" + (d.rot_angle) + ")"
+                  + "translate(" + (d.innerRadius + (barHeight*1.025)) + ")"
+                  + (d.angle > Math.PI ? "rotate(180)" : "");
+                  })
   }
 
 
 });
+
+//  -54
+//  18
+//  90
+//  162
+//  234
+//
+//
+//
+//
+//
+//
+//
+//

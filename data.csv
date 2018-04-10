@@ -1,50 +1,174 @@
 name,value
-Parties, 0
-Bioengineering (BIOENGR),3
-Islamic Studies (ISLM ST),2
+Bioengineering (BIOENGR),0
+Islamic Studies (ISLM ST),0
 Life Sciences (LIFESCI),2
-Education (EDUC),6
-Music History (MSC HST),4
-Engineering (ENGR),3
-Civic Engagement (CIVIC),5
-Conservation of Archaeological and Ethnographic Materials (CAEM),5
-International Development Studies (INTL DV),5
-Latin American Studies (LATN AM),5
-Jewish Studies (JEWISH),2
+Education (EDUC),3
+Management-Master of Financial Engineering (MGMTMFE),0
+Music History (MSC HST),3
+Engineering (ENGR),1
+Civic Engagement (CIVIC),0
+Conservation of Archaeological and Ethnographic Materials (CAEM),0
+International Development Studies (INTL DV),0
+Latin American Studies (LATN AM),0
+Jewish Studies (JEWISH),0
 Indo-European Studies (I E STD),2
-Southeast Asian (SEASIAN),5
-Aerospace Studies (AERO ST),3
-Hungarian (HNGAR),3
-Polish (POLSH),2
-Turkic Languages (TURKIC),4
-Neurobiology (NEURBIO),1
-Mathematics (MATH),2
+Southeast Asian (SEASIAN),2
+Aerospace Studies (AERO ST),1
+Hungarian (HNGAR),0
+Turkic Languages (TURKIC),0
+Neurobiology (NEURBIO),0
+Mathematics (MATH),1
 "Earth, Planetary, and Space Sciences (EPS SCI)",2
-Disability Studies (DIS STD),4
+Disability Studies (DIS STD),0
 Public Policy (PUB PLC),4
 Scandinavian (SCAND),2
-Environmental Health Sciences (ENV HLT),3
-Iranian,2
+Environmental Health Sciences (ENV HLT),0
+Iranian,3
 Computer Science (COM SCI),3
+Ukrainian (UKRN),0
 Statistics (STATS),2
-Electrical Engineering (EL ENGR),3
-Sociology (SOCIOL),3
-"Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)",3
+Electrical Engineering (EL ENGR),0
+Sociology (SOCIOL),2
+"Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)",0
 Civil and Environmental Engineering (C&EE),3
-Neuroscience (Graduate) (NEURO),3
-Political Science (POL SCI),3
+Neuroscience (Graduate) (NEURO),0
+Political Science (POL SCI),2
 Italian,2
-Art,6
-Nursing,5
+Art,7
+Nursing,3
 University Studies (UNIV ST),3
-History (HIST),3
-Psychology (PSYCH),2
+History (HIST),4
+Graduate Student Professional Development (GRAD PD),0
+Psychology (PSYCH),3
 Chinese (CHIN),2
 Vietnamese (VIETMSE),2
-Chemistry and Biochemistry (CHEM),2
-Physics and Biology in Medicine (PBMED),3
-Physiological Science (PHYSCI),3
-Korean (KOREA),3
+Global Health (GLB HLT),0
+Chemistry and Biochemistry (CHEM),1
+Physics and Biology in Medicine (PBMED),0
+Physiological Science (PHYSCI),1
+Korean (KOREA),2
 Middle Eastern Studies (M E STD),2
+Art History (ART HIS),2
+Neuroscience (NEUROSC),0
+Mechanical and Aerospace Engineering (MECH&AE),3
+Ethnomusicology (ETHNMUS),4
+Anesthesiology (ANES),0
+Naval Science (NAV SCI),3
+Spanish (SPAN),2
+"Molecular, Cellular, and Integrative Physiology (MC&IP)",0
+Latin,2
+Epidemiology (EPIDEM),0
+Economics (ECON),2
+Honors Collegium (HNRS),3
+Biological Chemistry (BIOL CH),0
+Human Genetics (HUM GEN),0
+Oral Biology (ORL BIO),0
+South Asian (S ASIAN),0
+Thai,2
+Biomedical Research (BMD RES),2
+Psychiatry and Biobehavioral Sciences (PSYCTRY),0
+Theater,3
+Bioinformatics (Graduate) (BIOINFO),0
+Design / Media Arts (DESMA),4
+Armenian (ARMENIA),0
+Greek,1
+African American Studies (AF AMER),3
+Urban Planning (URBN PL),0
+International and Area Studies (I A STD),3
+Physiology (PHYSIOL),0
+Musicology (MUSCLG),0
+Chicana and Chicano Studies (CHICANO),3
+Indonesian (INDO),2
+Obstetrics and Gynecology (OBGYN),0
+Dance,2
+World Arts and Cultures (WL ARTS),3
+Archaeology (ARCHEOL),3
+Arabic,3
+Neurology (NEURLGY),0
+Japanese (JAPAN),2
+Ophthalmology (OPTH),0
+Program in Computing (COMPTNG),1
+Classics (CLASSIC),1
+Swahili,2
+Atmospheric and Oceanic Sciences (A&O SCI),2
+Anthropology (ANTHRO),1
+"Molecular, Cell, and Developmental Biology (MCD BIO)",2
+Music Industry (MSC IND),0
+Pathology and Laboratory Medicine (PATH),0
+Environment (ENVIRON),1
+Medical History (MED HIS),0
+Social Thought (SOC THT),0
+Applied Linguistics (APPLING),0
+Comparative Literature (COM LIT),2
+Semitic,0
+American Sign Language (ASL),3
+Asian American Studies (ASIA AM),2
+French (FRNCH),2
+Arts and Architecture (ART&ARC),5
+Romanian (ROMANIA),0
+Materials Science and Engineering (MAT SCI),0
+Medicine (MED),0
+Biomathematics (BIOMATH),0
+Portuguese (PORTGSE),3
+Gender Studies (GENDER),2
+Biostatistics (BIOSTAT),0
+Health Policy and Management (HLT POL),0
+Management-PhD (MGMTPHD),0
+English (ENGL),3
+Molecular and Medical Pharmacology (M PHARM),0
+Indigenous Languages of the Americas (IL AMER),3
+Gerontology (GRNTLGY),0
+Social Welfare (SOC WLF),0
+Global Studies (GLBL ST),2
+German,2
+Near Eastern Languages (NR EAST),2
+Afrikaans (AFRKAAN),2
+Music (MUSC),4
+Electrical and Computer Engineering (EC ENGR),3
+Ecology and Evolutionary Biology (EE BIOL),1
+Public Health (PUB HLT),0
+Surgery,0
+Food Studies (FOOD ST),3
+Management (MGMT),2
+Labor and Workplace Studies (LBR&WS),0
+Filipino (FILIPNO),2
+Science Education (SCI EDU),2
+Dutch,0
+American Indian Studies (AM IND),3
+Ancient Near East (AN N EA),2
+Yiddish (YIDDSH),0
+Hindi-Urdu (HIN-URD),2
+Digital Humanities (DGT HUM),0
+Community Health Sciences (COM HLT),0
+"Religion, Study of (RELIGN)",2
+Computational and Systems Biology (C&S BIO),0
+English Composition (ENGCOMP),3
+Serbian/Croatian (SRB CRO),0
+Social Science (SOC SC),0
+African Studies (AFRC ST),0
+Molecular Biology (MOL BIO),0
+Law,0
+Clusters (CLUSTER),2
+Astronomy (ASTR),2
 Philosophy (PHILOS),3
-Art History (ART HIS),4
+Military Science (MIL SCI),2
+Hebrew,1
+Geography (GEOG),2
+Linguistics (LING),3
+Communication (COMM),2
+Management-Master of Science in Business Analytics (MGMTMSA),0
+Physics,2
+Architecture and Urban Design (ARCH&UD),2
+Chemical Engineering (CH ENGR),3
+"Microbiology, Immunology, and Molecular Genetics (MIMG)",2
+Molecular Toxicology (MOL TOX),0
+Arts Education (ARTS ED),0
+English as A Second Language (ESL),0
+Slavic (SLAVC),2
+Film and Television (FILM TV),4
+Society and Genetics (SOC GEN),2
+Asian,2
+Information Studies (INF STD),4
+Central and East European Studies (C&EE ST),0
+Polish (POLSH),0
+Russian (RUSSN),2
